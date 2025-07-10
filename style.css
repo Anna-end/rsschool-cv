@@ -1,0 +1,185 @@
+body {
+
+    font-family: 'Lato', sans-serif !important;
+   }
+.menu {
+    border: 2px solid #ddd;
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+    position: relative;
+}
+.menu__item__container {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border-radius: 10px;
+    padding-right: 10px;
+    background: #f0efef
+}
+.menu__item{
+    list-style-type: none; 
+}
+.menu__item a{
+    font-size: 22px;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 20px;
+    color: #282727;
+   
+}
+    
+.menu__item a:hover{
+    color: #e89a3d;
+}
+
+.container__cv {
+    border: 2px solid #ddd;
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+    position: relative;
+    display: flex;
+    gap: 40px;
+}
+
+.left__container,
+.right__container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background: #f0efef;
+    padding: 20px;
+    border-radius: 10px;
+}
+.left__container {
+    flex-basis: 15%;
+}
+.line{
+    width: 90%;
+    height: 2px;
+    background-color: #ddd;
+}
+
+.text{
+    color: #827b7b;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.title,
+.name__info {
+    color: #5b5a5a;
+    font-size: 20px;
+}
+
+.courses__container {
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.courses_content__link{
+    font-size: 22px;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 20px;
+    color: #282727;
+}
+.courses_content p{
+    font-size: 12px;
+    color: #827b7b;
+}
+.courses_content__link:hover
+ {
+   color: #e89a3d;
+}
+
+.description__courses, 
+.courses_content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+code{
+    font-size: 18px;
+    color: #827b7b;
+}
+
+.container__code{
+    margin-top: 20px;
+}
+
+.contact__information img{
+    width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin: 20px auto;
+}
+
+.skills__list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+}
+.skills__list li{
+    list-style-type: none;
+    color: #827b7b;
+}
+.contact__information,
+.information__text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact__text{
+    font-size: 12px;
+    color: #827b7b;
+}
+
+.text__info{
+    color: #827b7b;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 1.5; 
+}
+.information__text p{
+   margin: 0;
+}
+
+.container__footer{
+    border: 2px solid #ddd;
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.logo__link{
+    width: 100px;
+   
+}
+
+.logo__link:hover{
+    color: #e89a3d;
+}
+
+.gitHub__link,
+.year {
+    font-size: 22px;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 20px;
+    color: #282727; 
+   margin: 0;
+}
