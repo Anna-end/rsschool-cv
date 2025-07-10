@@ -42,3 +42,7 @@ function removeSmallest(numbers) {
 - JavaScript on [learnjavascript.ru](https://learn.javascript.ru) (in progress)
 - RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 
+### Languages  
+
+- English - A2 (I am currently in the process of learning English).
+- Russian - Native
